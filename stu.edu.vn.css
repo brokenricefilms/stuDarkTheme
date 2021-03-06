@@ -1,0 +1,153 @@
+:root {
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --aqua: #689d6a;
+  --gray: #a89984;
+}
+
+* {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+}
+
+a {
+  color: var(--aqua) !important;
+}
+
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md-12.moduleStyle
+  > h6
+  > img,
+#featuredNewsContainerMain > h6 > img,
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-9.col-md-9.leftColumnContainerMain
+  > div:nth-child(1)
+  > div.col-12
+  > h6
+  > a
+  > img,
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md.eventListContainer.moduleStyle
+  > h6
+  > img,
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-9.col-md-9.leftColumnContainerMain
+  > div:nth-child(6)
+  > div:nth-child(1)
+  > h6
+  > a
+  > img {
+  filter: grayscale(100%);
+}
+
+input {
+  /* background: var(--gray) !important; */
+  color: var(--fg) !important;
+  box-shadow: -1rem 0 3rem #000;
+}
+
+.headerModule {
+  border-bottom: 1px solid var(--fg) !important;
+}
+
+#bodyWrapper > div:nth-child(2) > footer,
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md-12.moduleStyle
+  > ul
+  > li:nth-child(10),
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md-12.moduleStyle
+  > ul
+  > li:nth-child(11) {
+  box-shadow: -1rem 0 3rem #000;
+}
+
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md-12.moduleStyle
+  > ul
+  > li:nth-child(10)
+  > a,
+#bodyWrapper
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div
+  > div
+  > div.container.allColumnsContainer
+  > div
+  > div.col-xs-12.col-sm-3.col-md-3.rightColumnContainerMain
+  > div
+  > div.col-xs-12.col-sm-12.col-md-12.moduleStyle
+  > ul
+  > li:nth-child(11)
+  > a {
+  color: var(--green) !important;
+}
+
+.badge-danger {
+  color: var(--red) !important;
+}
+
+#navbarNavDropdown .dropdown-menu a {
+  border-bottom: 1px solid var(--fg) !important;
+}
+
+#navbarNavDropdown .dropdown-menu a:hover {
+  background-color: var(--fg) !important;
+}
