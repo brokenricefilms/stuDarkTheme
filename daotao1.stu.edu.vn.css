@@ -1,0 +1,84 @@
+:root {
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16286;
+  --aqua: #689d6a;
+  --gray: #a89984;
+}
+
+* {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+}
+
+a {
+  color: var(--aqua) !important;
+}
+
+/* img { */
+/* filter: grayscale(100%); */
+/* } */
+
+input {
+  /* background: var(--gray) !important; */
+  color: var(--fg) !important;
+  box-shadow: -1rem 0 3rem #000;
+}
+
+#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_btnDangNhap {
+  color: var(--green) !important;
+  background-color: var(--bg) !important;
+
+  display: inline-block !important;
+
+  font-weight: bold !important;
+  padding: 5px 11px !important;
+  margin: 10px 24px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+
+  box-shadow: -1rem 0 3rem #000;
+  border: 0px;
+}
+
+#ctl00_ContentPlaceHolder1_ctl00_ucDangNhap_lnkBtnQuenMK {
+  color: var(--green) !important;
+
+  font-weight: bold !important;
+  box-shadow: -1rem 0 3rem #000;
+  padding: 7px 12px !important;
+  margin: 10px 24px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+.navigate-base {
+  border: 0px !important;
+  box-shadow: -1rem 0 3rem #000;
+}
+
+#id_form > div.center > table {
+  box-shadow: -1rem 0 3rem #000;
+  padding: 10px 10px;
+}
+#ctl00_ContentPlaceHolder1_ctl00_gcHocphi > img,
+#aspnetForm
+  > div:nth-child(9)
+  > div
+  > table
+  > tbody
+  > tr:nth-child(2)
+  > td
+  > div
+  > table
+  > tbody
+  > tr:nth-child(1)
+  > td
+  > img {
+  filter: invert(1);
+}
