@@ -4,9 +4,15 @@
 
 ![](./img/eyeHurt.png)
 
-## Roadmap, todo and stuff
+## [Ongoing Projects][projects]
 
-**[https://github.com/orgs/dsc-stu/projects/1](https://github.com/orgs/dsc-stu/projects/1)**
+[https://github.com/orgs/dsc-stu/projects][projects]
+
+[projects]: https://github.com/orgs/dsc-stu/projects
+
+## **You have questions, share ideas or engage with other community members?**
+
+=> Go to tab [discussions](https://github.com/dsc-stu/dsc-stu/discussions)
 
 ## Available on
 
